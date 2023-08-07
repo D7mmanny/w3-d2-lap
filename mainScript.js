@@ -1,3 +1,49 @@
+// q
+let a=95
+if( a>=90 ){
+
+    console.log("A");
+
+
+}else if( a>=80 ){
+
+    console.log("B");
+
+}else if (a>=70   ){
+    console.log("C");
+
+}else if (a>=60  ){
+    console.log("D");
+
+}else{
+    console.log("F");
+
+}
+
+
+
+
+// q1
+
+let b=15
+if( b%3==0 && b%5==0 ){
+
+    console.log(" fizzBuzz");
+
+
+}else if( b%5==0 ){
+
+    console.log(" buzz");
+
+}else if (b%3==0  ){
+    console.log("fizz");
+
+}else{
+    console.log("non");
+}
+
+
+
 
 // q1
 for (let i = 0; i <= 10; i++) {
