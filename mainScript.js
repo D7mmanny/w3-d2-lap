@@ -1,5 +1,14 @@
-// q
-let a=95
+// q1
+let c=3
+if(c%2==0){
+    console.log("even",c); 
+}else{
+    console.log("odd",c);
+}
+
+
+// q2
+let a=80
 if( a>=90 ){
 
     console.log("A");
@@ -23,12 +32,12 @@ if( a>=90 ){
 
 
 
-// q1
+// q3
 
 let b=15
 if( b%3==0 && b%5==0 ){
 
-    console.log(" fizzBuzz");
+    console.log(b,"fizzBuzz");
 
 
 }else if( b%5==0 ){
@@ -45,14 +54,14 @@ if( b%3==0 && b%5==0 ){
 
 
 
-// q1
+// q4
 for (let i = 0; i <= 10; i++) {
     console.log(Math.pow(i, 2));
 
     
 }
 
-// q2
+// q5
 for (let j = 0; j < 20; j++) {
     if(j%2==0){
         
@@ -62,7 +71,7 @@ for (let j = 0; j < 20; j++) {
     
 }
 
-// q3
+// q6
  for (let j = 0; j < 25; j++) {
         if(j%2==0){
             console.log("even",j);
@@ -72,7 +81,7 @@ for (let j = 0; j < 20; j++) {
         
     }
 
-// q4
+// q7
 let t = 8;
 for (let i = 1; i <= t; i++) {
   let aa = "";
